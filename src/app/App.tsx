@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../_assets/logo.svg';
-import CustomButton from './_shared/custom_button/CustomButton';
 import './App.css';
+import Contact from './contact/Contact';
 
 const App = () => (
 	<>
@@ -18,7 +18,7 @@ const App = () => (
 			>
           Learn React!
 			</a>
-			<CustomButton/>
+			<Contact/>
 		</div>
 	</>
 );
