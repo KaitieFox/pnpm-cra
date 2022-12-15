@@ -3,7 +3,7 @@ import './CustomButton.css';
 import {Button} from 'react-bootstrap';
 
 const CustomButton = () => (
-	<Button className='btn-primary'>Secondaryishly</Button>
+	<Button className='btn-primary'>Primarily</Button>
 );
 
 export default CustomButton;
