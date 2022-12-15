@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from '../_assets/logo.svg';
-import CustomButton from '../_shared/custom_button/CustomButton';
+import CustomButton from '../_shared/components/custom_button/CustomButton';
 import './Contact.css';
 
 const Contact = () => (
