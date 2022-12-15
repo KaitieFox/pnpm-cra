@@ -1,11 +1,9 @@
 import React from 'react';
 import './CustomButton.css';
-import Button from 'react-bootstrap/Button';
+import {Button} from 'react-bootstrap';
 
 const CustomButton = () => (
-	<>
-		<Button variant='primary'>Primary</Button>{'Button!'}
-	</>
+	<Button className='btn-primary'>Secondaryish</Button>
 );
 
 export default CustomButton;

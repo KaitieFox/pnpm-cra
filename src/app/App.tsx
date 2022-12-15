@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from '../_assets/logo.svg';
+import CustomButton from './_shared/custom_button/CustomButton';
 import './App.css';
 
 const App = () => (
-	<div className='App'>
-		<header className='App-header'>
+	<>
+		<div className='App-header'>
 			<img src={logo} className='App-logo' alt='logo' />
 			<p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -17,8 +18,9 @@ const App = () => (
 			>
           Learn React!
 			</a>
-		</header>
-	</div>
+			<CustomButton/>
+		</div>
+	</>
 );
 
 export default App;
