@@ -4,6 +4,6 @@ import CustomButton from './CustomButton';
 
 test('renders learn react link', () => {
 	render(<CustomButton />);
-	const contact = screen.getByText(/Button!/i);
+	const contact = screen.getByText(/Primarily/i);
 	expect(contact).toBeInTheDocument();
 });
