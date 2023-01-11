@@ -1,0 +1,26 @@
+@import "imports";
+
+// @import "./_config.scss";
+
+// @import "~bootstrap/scss/bootstrap";
+// @import "./colors";
+// @import "./config";
+
+.main{
+    background-color: $primary;
+}
+.main1{
+    background-color: $primary2;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}

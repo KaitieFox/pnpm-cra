@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+$primary: grey;
+
+//add to theme
+$primary2: #00d258;
+
+$cox-color-theme: (
+  'primary2': $primary2,
+);
+$theme-colors: map-merge(
+  $theme-colors,
+  $cox-color-theme,
+);
